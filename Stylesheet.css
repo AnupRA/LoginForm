@@ -1,30 +1,35 @@
 body{
-    background-color: orange;
+    background:url(monument-valley-5k-hd-wallpaper-1440x900.jpg);
     padding: 0;
     margin: 0;
-    background-position: center; 
     background-size: cover;
 
 }
-.avatar{
-    height: 100px;
-    width:100px;
-    position: absolute;
-    top:10px;
-    left:calc(50% - 50px);
-}
+
 .loginbox{
-    background:  rgba(0, 0, 0, 0.5);
+    background: rgba(0,0,0,0.5);
     border-radius: 20px;
+    border: 5px solid #3c87c0 ;
     width:320px;
     height: 420px;
     top:50%;
     left:50%;
     position: absolute;
     padding: 20px;
+    padding-top: 40px;
     box-sizing: border-box;
     transform: translate(-50%,-50%);
     color: #fff;
+    
+}
+.avatar{
+    height: 100px;
+    width:100px;
+    position: absolute;
+    top:-70px;
+    left:calc(50% - 50px);
+    border-radius:50%; 
+    border: 3px solid #fff;
 }
 h1{
     margin: 0;
@@ -39,35 +44,37 @@ h1{
     padding: 0;
     font-weight: bold;
     font-size: 20px;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Berkshire Swash', cursive;
 }
 .loginbox input{
     width:100%;
     margin-bottom: 20px;
 }
 .loginbox input[type="text"],input[type="password"]{
-    border: none;
-    border-bottom: 11px #fff;
+    border : none;
+    border-bottom: 2px solid #fff;
     background: transparent;
     outline: none;
     height: 40px;
     color: #fff;
     font-size: 16px;
-    font-family: 'Pacifico', cursive;
-
+    font-family: 'Berkshire Swash', cursive;
+ 
 }
 .loginbox input[type="submit"]{
     border-radius: 20px;
     height: 40px;
-    background: blue;
+    background: #3c87c0;
     color:#fff;
     font-family: 'Merriweather', serif;
+    outline: none;
+    border: none;
 
 
 }
 .loginbox input[type="submit"]:hover{
     cursor: pointer;
-    background:green;
+    opacity: 0.6;
     color: #fff;
 }
 .loginbox a{
@@ -76,9 +83,8 @@ h1{
     color:#fff;
     border:1px #fff;
     font-family: 'Merriweather', serif;
-
-    
+    text-align: center;   
 }
 .loginbox a:hover{
-    color: green;
+    opacity: 0.6;
 }
